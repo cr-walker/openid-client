@@ -22,7 +22,10 @@
     "yarn": "^1.22.10"
   },
   "dependencies": {
-    "standard": "^16.0.3"
+    "@types/express": "^4.17.9",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.1.0",
+    "openid-client": "^4.2.2"
   },
   "jest": {
     "transform": {
@@ -37,6 +40,6 @@
     ]
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=12"
   }
 }
