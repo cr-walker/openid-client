@@ -25,7 +25,8 @@ app.use(
   auth({
     idpLogout: true,
     authRequired: false, // only require auth on specific endpoints
-    issuerBaseURL: 'http://localhost:3000',
+    issuerBaseURL:'https://auth.stagetokensoft.com',
+    // issuerBaseURL: 'http://localhost:3000',
     baseURL: 'http://localhost:3001',
     clientID,
     secret,
